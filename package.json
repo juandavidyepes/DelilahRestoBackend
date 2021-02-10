@@ -1,0 +1,23 @@
+{
+  "name": "delilah-resto-backend",
+  "version": "1.0.0",
+  "description": "Web app for restaurant's online orders ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "acamica",
+    "backend",
+    "express",
+    "restaurant"
+  ],
+  "author": "judavidy@hotmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.3",
+    "jsonwebtoken": "^8.5.1"
+  }
+}
