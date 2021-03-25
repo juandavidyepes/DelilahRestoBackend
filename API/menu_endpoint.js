@@ -2,7 +2,6 @@ const menu_DB = require('../Database/menu_DB');
 
 const menu_endpoint = (app) => {
   app.get('/menu', function (req, res) {
-    console.log('HOLI');
     menu_DB
       .getMenu()
       .then((response) => res.status(200).send(response))

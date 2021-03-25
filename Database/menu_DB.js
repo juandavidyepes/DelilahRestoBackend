@@ -14,7 +14,7 @@ async function getMenu() {
   let data;
   await database
     .query('SELECT * FROM products', {
-      type: database.QueryTypes.Select,
+      type: database.QueryTypes.SELECT,
     })
     .then((res) => (data = res))
     .catch((err) => console.log(err));
